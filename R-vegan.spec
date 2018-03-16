@@ -4,7 +4,7 @@
 #
 Name     : R-vegan
 Version  : 2.4.6
-Release  : 4
+Release  : 5
 URL      : https://cran.r-project.org/src/contrib/vegan_2.4-6.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/vegan_2.4-6.tar.gz
 Summary  : Community Ecology Package
@@ -12,11 +12,9 @@ Group    : Development/Tools
 License  : GPL-2.0
 Requires: R-vegan-lib
 Requires: R-ade4
-Requires: R-bipartite
 Requires: R-cclust
 Requires: R-permute
 BuildRequires : R-ade4
-BuildRequires : R-bipartite
 BuildRequires : R-cclust
 BuildRequires : R-permute
 BuildRequires : clr-R-helpers
@@ -40,11 +38,11 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1521229131
+export SOURCE_DATE_EPOCH=1521229947
 
 %install
 rm -rf %{buildroot}
-export SOURCE_DATE_EPOCH=1521229131
+export SOURCE_DATE_EPOCH=1521229947
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
 export FCFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
