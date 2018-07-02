@@ -4,7 +4,7 @@
 #
 Name     : R-vegan
 Version  : 2.5.2
-Release  : 15
+Release  : 16
 URL      : https://cran.r-project.org/src/contrib/vegan_2.5-2.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/vegan_2.5-2.tar.gz
 Summary  : Community Ecology Package
