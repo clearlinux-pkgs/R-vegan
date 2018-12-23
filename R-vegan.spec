@@ -4,7 +4,7 @@
 #
 Name     : R-vegan
 Version  : 2.5.3
-Release  : 19
+Release  : 20
 URL      : https://cran.r-project.org/src/contrib/vegan_2.5-3.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/vegan_2.5-3.tar.gz
 Summary  : Community Ecology Package
