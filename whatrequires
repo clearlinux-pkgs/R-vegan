@@ -1,6 +1,8 @@
 # This file contains recursive sources that require this package
 R-adegenet
+R-adephylo
 R-analogue
 R-bipartite
 R-dtw
+R-mirt
 R-taxize
