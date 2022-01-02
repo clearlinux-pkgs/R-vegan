@@ -1,5 +1,6 @@
 # This file contains recursive sources that require this package
 R-adegenet
+R-adespatial
 R-analogue
 R-bipartite
 R-mirt
