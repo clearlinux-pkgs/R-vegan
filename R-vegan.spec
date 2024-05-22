@@ -6,10 +6,10 @@
 # autospec commit: 5905be9
 #
 Name     : R-vegan
-Version  : 2.6.6
-Release  : 62
-URL      : https://cran.r-project.org/src/contrib/vegan_2.6-6.tar.gz
-Source0  : https://cran.r-project.org/src/contrib/vegan_2.6-6.tar.gz
+Version  : 2.6.6.1
+Release  : 63
+URL      : https://cran.r-project.org/src/contrib/vegan_2.6-6.1.tar.gz
+Source0  : https://cran.r-project.org/src/contrib/vegan_2.6-6.1.tar.gz
 Summary  : Community Ecology Package
 Group    : Development/Tools
 License  : GPL-2.0
@@ -46,10 +46,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1715704283
+export SOURCE_DATE_EPOCH=1716403770
 
 %install
-export SOURCE_DATE_EPOCH=1715704283
+export SOURCE_DATE_EPOCH=1716403770
 rm -rf %{buildroot}
 LANG=C.UTF-8
 CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -O3 -flto -fno-semantic-interposition "
